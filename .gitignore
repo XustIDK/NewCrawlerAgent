@@ -1,0 +1,22 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+
+# Local OS/editor files
+.DS_Store
+.vscode/
+
+# Generated research data and reports
+*_notes.csv
+*_report.md
+*_agent_loop.png
+*_agent_loop.svg
+
+# Local presentation builds and exports
+.deck_build/
+.deck_output/
