@@ -1,0 +1,47 @@
+{
+  "domain": "bbc.com",
+  "name": "BBC News",
+  "language": "en",
+  "fetch": {
+    "mode": "auto",
+    "encoding": "auto",
+    "wait_selector": ""
+  },
+  "discovery": {
+    "feeds": [
+      "https://feeds.bbci.co.uk/news/rss.xml"
+    ],
+    "use_jsonld": true,
+    "use_heuristics": true,
+    "max_scroll": 0
+  },
+  "list": {
+    "url": "https://www.bbc.com/news",
+    "item": "a[href*='/news/articles/']::attr(href)",
+    "item_title": "",
+    "item_date": "",
+    "item_section": "",
+    "item_image": ""
+  },
+  "article": {
+    "title": "h1",
+    "body": "article p",
+    "date": "",
+    "author": "[rel=author]",
+    "source": "meta[property='og:site_name']::attr(content)",
+    "summary": "meta[name='description']::attr(content)",
+    "section": "",
+    "exclude": [
+      "aside",
+      "[data-component='links-block']",
+      "[data-component='related-content']"
+    ]
+  },
+  "include": [],
+  "exclude": [
+    "/live/",
+    "/videos/"
+  ],
+  "note": "2026-10-29 真实页面验证：h1 命中标题，article p 命中 47 段正文，[rel=author] 命中作者；发布时间以 JSON-LD 为准，不配置 date 选择器（页面 time 元素可能是动态时间）。",
+  "learned_by": "human"
+}

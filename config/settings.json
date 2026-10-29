@@ -1,0 +1,41 @@
+{
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 NewsAgent/1.0",
+  "crawl": {
+    "max_articles": 10,
+    "max_list_pages": 3,
+    "max_candidates": 150,
+    "timeout_s": 15,
+    "retries": 2,
+    "min_delay_s": 0.8,
+    "respect_robots": true,
+    "browser_mode": "auto",
+    "browser_wait_ms": 2500,
+    "headless": true,
+    "max_body_chars": 20000,
+    "default_timezone": "UTC",
+    "language_hint": "",
+    "include_patterns": [],
+    "exclude_patterns": []
+  },
+  "llm": {
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "max_rounds": 12,
+    "temperature": 0.2
+  },
+  "discovery": {
+    "feed_suffixes": ["/feed", "/rss", "/rss.xml", "/feed.xml", "/atom.xml", "/index.xml", "/news/feed", "/news/rss"],
+    "max_feeds": 5,
+    "anchor_min_text": 12,
+    "max_scroll": 2
+  },
+  "extraction": {
+    "min_body_chars": 200,
+    "min_confidence": 0.35,
+    "max_title_chars": 300
+  },
+  "output": {
+    "dir": "data",
+    "formats": ["jsonl", "csv", "meta", "md"]
+  }
+}

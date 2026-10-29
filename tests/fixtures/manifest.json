@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-29T09:53:57+00:00",
+  "total_bytes": 4853303,
+  "fixtures": [
+    {
+      "name": "bbc_news_list",
+      "path": "bbc/bbc_news_list.html",
+      "source_url": "https://www.bbc.com/news",
+      "encoding_used": "utf-8",
+      "bytes": 373860,
+      "sha256": "27f0f06f7f1c08fce66c5b0cd9c49dc37881da51a8b836cc13d0342b8bf1076e",
+      "fetched_at": "2026-10-29T09:50:34+00:00",
+      "kind": "list",
+      "notes": "BBC News 首页/列表页（英文，UTF-8）"
+    },
+    {
+      "name": "bbc_article_1",
+      "path": "bbc/bbc_article_1.html",
+      "source_url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+      "encoding_used": "utf-8",
+      "bytes": 332496,
+      "sha256": "10414a20421b8ae1e6a91e339807074d2326240684a5beb08ba3b3e55af40807",
+      "fetched_at": "2026-10-29T09:50:35+00:00",
+      "kind": "article",
+      "notes": "bbc 文章页 1（来源：bbc_news_list 列表）"
+    },
+    {
+      "name": "bbc_article_2",
+      "path": "bbc/bbc_article_2.html",
+      "source_url": "https://www.bbc.com/news/articles/c574pj3zljvjo",
+      "encoding_used": "utf-8",
+      "bytes": 331638,
+      "sha256": "609330b9b41476c92e14bf774d0cede12b60a290a0df5cba3edc5142d7a3c562",
+      "fetched_at": "2026-10-29T09:50:36+00:00",
+      "kind": "article",
+      "notes": "bbc 文章页 2（来源：bbc_news_list 列表）"
+    },
+    {
+      "name": "dw_top_list",
+      "path": "dw/dw_top_list.html",
+      "source_url": "https://www.dw.com/en/top-stories/s-9097",
+      "encoding_used": "utf-8",
+      "bytes": 288220,
+      "sha256": "a2cbd8e006686104febbe5933357baa0fd8f2cfec2c5b34027b36e5d4f7a78aa",
+      "fetched_at": "2026-10-29T09:50:49+00:00",
+      "kind": "list",
+      "notes": "DW 英文 Top Stories 列表页（德媒英文版）"
+    },
+    {
+      "name": "dw_article_1",
+      "path": "dw/dw_article_1.html",
+      "source_url": "https://www.dw.com/en/what-would-a-new-israeli-government-mean-for-arab-neighbors-more-of-the-same-is-expected-with-some-small-positives-predicted/a-79788174",
+      "encoding_used": "utf-8",
+      "bytes": 289220,
+      "sha256": "417629067ceeba7305c4fa218077a21e625c4d8c87dc07cf7861ea1b278358e4",
+      "fetched_at": "2026-10-29T09:50:51+00:00",
+      "kind": "article",
+      "notes": "dw 文章页 1（来源：dw_top_list 列表）"
+    },
+    {
+      "name": "dw_article_2",
+      "path": "dw/dw_article_2.html",
+      "source_url": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085",
+      "encoding_used": "utf-8",
+      "bytes": 224111,
+      "sha256": "2b2ea4550ad786ad4d6a79df076b4682b4ba7dd7bd6226a7870acf620cf0c28a",
+      "fetched_at": "2026-10-29T09:50:54+00:00",
+      "kind": "article",
+      "notes": "dw 文章页 2（来源：dw_top_list 列表）"
+    },
+    {
+      "name": "nhk_news_list",
+      "path": "nhk/nhk_news_list.html",
+      "source_url": "https://news.web.nhk/newsweb",
+      "encoding_used": "utf-8",
+      "bytes": 1203621,
+      "sha256": "3acb0a3f176f6f15febfddb9dfbb82af8175914e06a6d254b26a0553de9bb904",
+      "fetched_at": "2026-10-29T09:51:11+00:00",
+      "kind": "list",
+      "notes": "NHK 新闻列表页（日文，302 到 news.web.nhk/newsweb）"
+    },
+    {
+      "name": "nhk_article_1",
+      "path": "nhk/nhk_article_1.html",
+      "source_url": "https://news.web.nhk/newsweb/na/nd-20261029de67453",
+      "encoding_used": "utf-8",
+      "bytes": 376503,
+      "sha256": "bf83165da81997035cb2c452ef9c096f02a5eee63c5082cc48edf22d5b55d9b0",
+      "fetched_at": "2026-10-29T09:51:14+00:00",
+      "kind": "article",
+      "notes": "nhk 文章页 1（来源：nhk_news_list 列表）"
+    },
+    {
+      "name": "lemonde_en_list",
+      "path": "lemonde/lemonde_en_list.html",
+      "source_url": "https://www.lemonde.fr/en/",
+      "encoding_used": "utf-8",
+      "bytes": 343693,
+      "sha256": "c2e588d6e40b4257ec02e17d8344f87b204cdf57101cc0679de7cd658d0e181b",
+      "fetched_at": "2026-10-29T09:51:25+00:00",
+      "kind": "list",
+      "notes": "Le Monde 英文版列表页（法媒英文版）"
+    },
+    {
+      "name": "sina_news_list",
+      "path": "sina/sina_news_list.html",
+      "source_url": "https://news.sina.com.cn/",
+      "encoding_used": "utf-8",
+      "bytes": 348452,
+      "sha256": "3d16de838924b83a3fd71ef8d5b69de2da2e0a756a1e4e381f2b03ed577f81e1",
+      "fetched_at": "2026-10-29T09:53:48+00:00",
+      "kind": "list",
+      "notes": "新浪新闻首页/列表页（中文，UTF-8；原始字节保存）"
+    },
+    {
+      "name": "sina_article_1",
+      "path": "sina/sina_article_1.html",
+      "source_url": "https://news.sina.com.cn/2026-10-29/doc-iniwwtux5259332.shtml",
+      "encoding_used": "utf-8",
+      "bytes": 85512,
+      "sha256": "15a5815679841b9cfe0fa90206f2f425ff0059c6896f8335263be41b9b0415b8",
+      "fetched_at": "2026-10-29T09:53:49+00:00",
+      "kind": "article",
+      "notes": "sina 文章页 1（来源：sina_news_list 列表）"
+    },
+    {
+      "name": "sina_article_2",
+      "path": "sina/sina_article_2.html",
+      "source_url": "https://news.sina.com.cn/gov/xlxw/2026-10-29/doc-iniwwiew6104261.shtml",
+      "encoding_used": "utf-8",
+      "bytes": 58045,
+      "sha256": "5f4e2d9269a3d0d707a2fa0d5fd8b257bbeb1e867a72d193c58ce77c486dddf5",
+      "fetched_at": "2026-10-29T09:53:49+00:00",
+      "kind": "article",
+      "notes": "sina 文章页 2（来源：sina_news_list 列表）"
+    },
+    {
+      "name": "zaobao_list",
+      "path": "zaobao/zaobao_list.html",
+      "source_url": "https://www.zaobao.com.sg/",
+      "encoding_used": "utf-8",
+      "bytes": 287409,
+      "sha256": "bf903fbb552c4c73fd3d781167a65aeaaa71af633a60d2ea896e96d72400e442",
+      "fetched_at": "2026-10-29T09:53:53+00:00",
+      "kind": "list",
+      "notes": "联合早报首页/列表页（简体中文，新加坡）"
+    },
+    {
+      "name": "zaobao_article_1",
+      "path": "zaobao/zaobao_article_1.html",
+      "source_url": "https://www.zaobao.com.sg/news/world/story20261029-9910257",
+      "encoding_used": "utf-8",
+      "bytes": 202891,
+      "sha256": "804339c032399aab9fce5afaead5499e2b0139dd0ddb5a80b9d5a36be768a2f2",
+      "fetched_at": "2026-10-29T09:53:55+00:00",
+      "kind": "article",
+      "notes": "zaobao 文章页 1（来源：zaobao_list 列表）"
+    },
+    {
+      "name": "bbc_rss",
+      "path": "bbc/bbc_rss.html",
+      "source_url": "https://feeds.bbci.co.uk/news/rss.xml",
+      "encoding_used": "utf-8",
+      "bytes": 24661,
+      "sha256": "67da03d51cf0be6af1a33adb2784fbcf7dba70b127aa45826d8ba6a9168d932e",
+      "fetched_at": "2026-10-29T09:53:57+00:00",
+      "kind": "feed",
+      "notes": "BBC News RSS 2.0 feed（feed 解析测试）"
+    },
+    {
+      "name": "sina_article_gbk",
+      "path": "sina/sina_article_gbk.html",
+      "source_url": "https://news.sina.com.cn/2026-10-29/doc-iniwwtux5259332.shtml",
+      "encoding_used": "gb18030",
+      "bytes": 82971,
+      "sha256": "dd0fb0469c4099dc78b045de944b8524c7b2e91965d2f0a1ec514fe75de1774a",
+      "fetched_at": "2026-10-29T09:53:57+00:00",
+      "kind": "article",
+      "notes": "合成 fixture：将上面的真实新浪文章按 GB18030 重新编码（并改写 meta charset），用于编码识别/解码回归测试；线上页面本身是 UTF-8。"
+    }
+  ]
+}

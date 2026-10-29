@@ -1,3 +1,7 @@
+# 核心依赖（run.ps1 会自动安装）
 lxml
 openai
 playwright
+requests
+# 通用正文抽取（多语言、跨站点；缺失时 extract.py 自动降级为内置启发式算法）
+trafilatura

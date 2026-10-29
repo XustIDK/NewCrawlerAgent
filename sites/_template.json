@@ -1,0 +1,42 @@
+{
+  "domain": "example.com",
+  "name": "Example News",
+  "language": "en",
+  "fetch": {
+    "mode": "auto",
+    "encoding": "auto",
+    "wait_selector": ""
+  },
+  "discovery": {
+    "feeds": [],
+    "use_jsonld": true,
+    "use_heuristics": true,
+    "max_scroll": 0
+  },
+  "list": {
+    "url": "",
+    "item": "article a[href]::attr(href)",
+    "item_title": "article h2, article h3",
+    "item_date": "article time::attr(datetime)",
+    "item_section": "",
+    "item_image": "article img::attr(src)",
+    "pagination": {
+      "next": "a[rel=next]::attr(href)",
+      "max_pages": 3
+    }
+  },
+  "article": {
+    "title": "h1",
+    "body": "article p",
+    "date": "time::attr(datetime)",
+    "author": "[rel=author]",
+    "source": "meta[property=og:site_name]::attr(content)",
+    "summary": "meta[name=description]::attr(content)",
+    "section": "",
+    "exclude": [".ad", ".related", ".newsletter", ".share"]
+  },
+  "include": [],
+  "exclude": ["/video/", "/live/"],
+  "note": "站点配置模板：复制为 sites/<domain>.json 后按需填写选择器。未填写的字段自动回退到通用抽取策略。",
+  "learned_by": "human"
+}

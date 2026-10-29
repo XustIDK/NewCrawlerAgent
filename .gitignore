@@ -4,14 +4,18 @@
 !.env.example
 
 # Python runtime artifacts
+.venv/
 __pycache__/
 *.py[cod]
+*.log
 
 # Local OS/editor files
 .DS_Store
 .vscode/
 
-# Generated research data and reports
+# Runtime output: datasets, reports, agent loop diagrams
+data/
+!data/.gitkeep
 *_notes.csv
 *_report.md
 *_agent_loop.png
